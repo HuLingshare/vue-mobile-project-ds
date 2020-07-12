@@ -1,0 +1,337 @@
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  font-weight: normal;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+}
+[data-dpr="2"] body,
+[data-dpr="2"] div,
+[data-dpr="2"] span,
+[data-dpr="2"] header,
+[data-dpr="2"] footer,
+[data-dpr="2"] nav,
+[data-dpr="2"] section,
+[data-dpr="2"] aside,
+[data-dpr="2"] article,
+[data-dpr="2"] ul,
+[data-dpr="2"] dl,
+[data-dpr="2"] dt,
+[data-dpr="2"] dd,
+[data-dpr="2"] li,
+[data-dpr="2"] a,
+[data-dpr="2"] p,
+[data-dpr="2"] h1,
+[data-dpr="2"] h2,
+[data-dpr="2"] h3,
+[data-dpr="2"] h4,
+[data-dpr="2"] h5,
+[data-dpr="2"] h6,
+[data-dpr="2"] i,
+[data-dpr="2"] b,
+[data-dpr="2"] textarea,
+[data-dpr="2"] button,
+[data-dpr="2"] input,
+[data-dpr="2"] select,
+[data-dpr="2"] figure,
+[data-dpr="2"] figcaption {
+  font-size: 14px;
+}
+[data-dpr="2.5"] body,
+[data-dpr="2.5"] div,
+[data-dpr="2.5"] span,
+[data-dpr="2.5"] header,
+[data-dpr="2.5"] footer,
+[data-dpr="2.5"] nav,
+[data-dpr="2.5"] section,
+[data-dpr="2.5"] aside,
+[data-dpr="2.5"] article,
+[data-dpr="2.5"] ul,
+[data-dpr="2.5"] dl,
+[data-dpr="2.5"] dt,
+[data-dpr="2.5"] dd,
+[data-dpr="2.5"] li,
+[data-dpr="2.5"] a,
+[data-dpr="2.5"] p,
+[data-dpr="2.5"] h1,
+[data-dpr="2.5"] h2,
+[data-dpr="2.5"] h3,
+[data-dpr="2.5"] h4,
+[data-dpr="2.5"] h5,
+[data-dpr="2.5"] h6,
+[data-dpr="2.5"] i,
+[data-dpr="2.5"] b,
+[data-dpr="2.5"] textarea,
+[data-dpr="2.5"] button,
+[data-dpr="2.5"] input,
+[data-dpr="2.5"] select,
+[data-dpr="2.5"] figure,
+[data-dpr="2.5"] figcaption {
+  font-size: 35px;
+}
+[data-dpr="2.75"] body,
+[data-dpr="2.75"] div,
+[data-dpr="2.75"] span,
+[data-dpr="2.75"] header,
+[data-dpr="2.75"] footer,
+[data-dpr="2.75"] nav,
+[data-dpr="2.75"] section,
+[data-dpr="2.75"] aside,
+[data-dpr="2.75"] article,
+[data-dpr="2.75"] ul,
+[data-dpr="2.75"] dl,
+[data-dpr="2.75"] dt,
+[data-dpr="2.75"] dd,
+[data-dpr="2.75"] li,
+[data-dpr="2.75"] a,
+[data-dpr="2.75"] p,
+[data-dpr="2.75"] h1,
+[data-dpr="2.75"] h2,
+[data-dpr="2.75"] h3,
+[data-dpr="2.75"] h4,
+[data-dpr="2.75"] h5,
+[data-dpr="2.75"] h6,
+[data-dpr="2.75"] i,
+[data-dpr="2.75"] b,
+[data-dpr="2.75"] textarea,
+[data-dpr="2.75"] button,
+[data-dpr="2.75"] input,
+[data-dpr="2.75"] select,
+[data-dpr="2.75"] figure,
+[data-dpr="2.75"] figcaption {
+  font-size: 39px;
+}
+[data-dpr="3"] body,
+[data-dpr="3"] div,
+[data-dpr="3"] span,
+[data-dpr="3"] header,
+[data-dpr="3"] footer,
+[data-dpr="3"] nav,
+[data-dpr="3"] section,
+[data-dpr="3"] aside,
+[data-dpr="3"] article,
+[data-dpr="3"] ul,
+[data-dpr="3"] dl,
+[data-dpr="3"] dt,
+[data-dpr="3"] dd,
+[data-dpr="3"] li,
+[data-dpr="3"] a,
+[data-dpr="3"] p,
+[data-dpr="3"] h1,
+[data-dpr="3"] h2,
+[data-dpr="3"] h3,
+[data-dpr="3"] h4,
+[data-dpr="3"] h5,
+[data-dpr="3"] h6,
+[data-dpr="3"] i,
+[data-dpr="3"] b,
+[data-dpr="3"] textarea,
+[data-dpr="3"] button,
+[data-dpr="3"] input,
+[data-dpr="3"] select,
+[data-dpr="3"] figure,
+[data-dpr="3"] figcaption {
+  font-size: 42px;
+}
+[data-dpr="4"] body,
+[data-dpr="4"] div,
+[data-dpr="4"] span,
+[data-dpr="4"] header,
+[data-dpr="4"] footer,
+[data-dpr="4"] nav,
+[data-dpr="4"] section,
+[data-dpr="4"] aside,
+[data-dpr="4"] article,
+[data-dpr="4"] ul,
+[data-dpr="4"] dl,
+[data-dpr="4"] dt,
+[data-dpr="4"] dd,
+[data-dpr="4"] li,
+[data-dpr="4"] a,
+[data-dpr="4"] p,
+[data-dpr="4"] h1,
+[data-dpr="4"] h2,
+[data-dpr="4"] h3,
+[data-dpr="4"] h4,
+[data-dpr="4"] h5,
+[data-dpr="4"] h6,
+[data-dpr="4"] i,
+[data-dpr="4"] b,
+[data-dpr="4"] textarea,
+[data-dpr="4"] button,
+[data-dpr="4"] input,
+[data-dpr="4"] select,
+[data-dpr="4"] figure,
+[data-dpr="4"] figcaption {
+  font-size: 56px;
+}
+body:hover,
+div:hover,
+span:hover,
+header:hover,
+footer:hover,
+nav:hover,
+section:hover,
+aside:hover,
+article:hover,
+ul:hover,
+dl:hover,
+dt:hover,
+dd:hover,
+li:hover,
+a:hover,
+p:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover,
+i:hover,
+b:hover,
+textarea:hover,
+button:hover,
+input:hover,
+select:hover,
+figure:hover,
+figcaption:hover {
+  outline: none;
+}
+a {
+  color: #333;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #f5f5f5;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+input[type="button"],
+input[type="submit"],
+input[type="search"],
+input[type="reset"] {
+  -webkit-appearance: none;
+}
+textarea {
+  -webkit-appearance: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clear {
+  zoom: 1;
+}
+.back_img {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.margin {
+  margin: 0 auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.paddingTop {
+  padding-top: 1.95rem;
+}
+@keyframes backOpacity {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animation_opactiy {
+  animation: backOpacity 2s ease-in-out infinite;
+}
+.clamp2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.text-red {
+  color: #f20;
+}

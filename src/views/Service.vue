@@ -1,27 +1,32 @@
 <template>
-  <div class="about profile_page">
-    <transition name="router-slid" mode="out-in">
-      <router-view></router-view>
-    </transition>
+  <div class="service">
+    <header>
+      <Head go-back="true" :head-title="profiletitle"></Head>
+    </header>
   </div>
 </template>
 
 <script>
+import Head from "@/components/Head.vue";
 export default {
-  name: "About",
+  name: "service",
+  components: { Head },
   data() {
-    return {};
+    return {
+      profiletitle: "我的服务"
+    };
   },
-  methods: {},
   mounted() {
     this.$store.dispatch("changeLoading");
-  }
+  },
+  methods: {}
 };
 </script>
 
 <style lang="less" scoped>
 @import "@/assets/css/mixin.less";
-.about {
+
+.address {
   width: 100%;
   min-height: 100vh;
   background: #f8f8f8;
